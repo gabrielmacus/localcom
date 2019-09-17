@@ -1,0 +1,24 @@
+$theme-colors: (
+  'primary': (
+    'base': #00b16a,
+    'contrast':white,
+    'light': #14e38f,
+    'light-contrast':black,
+    'dark': #009458 ,
+    'dark-contrast':white
+  ),
+  'secondary': (
+    'base': #34495e,
+    'light':#507294,
+    'contrast': white,
+    'light-contrast':white
+  ),
+  'background': (
+    'base': #F8F5F5,
+    'contrast': #616161
+  )
+);
+@function theme-color($key: 'primary', $variant: 'base') {
+    $map: map-get($theme-colors, $key);
+    @return map-get($map, $variant);
+  }

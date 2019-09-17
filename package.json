@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "pwa export --routes /about,/blog,/",
+    "start": "sirv build -s",
+    "watch": "pwa watch"
+  },
+  "dependencies": {
+    "@beyonk/svelte-notifications": "^1.1.2",
+    "ganalytics": "^3.0.0",
+    "navaid": "^1.0.0",
+    "peerjs": "^1.0.4",
+    "sirv-cli": "^0.4.0"
+  },
+  "devDependencies": {
+    "@pwa/cli": "latest",
+    "@pwa/plugin-offline": "latest",
+    "@pwa/preset-svelte": "latest",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "svelte": "^3.1.0"
+  },
+  "browserslist": [
+    ">0.25%",
+    "last 1 version",
+    "not ie_mob 11",
+    "not ie 11",
+    "not dead"
+  ]
+}

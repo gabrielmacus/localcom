@@ -1,0 +1,30 @@
+:global(html),:global(body){
+    height: 100%;
+    @media all and (max-width: 768px)
+    {
+      font-size: 22px;
+    }
+}
+:global(body)
+{
+  display:flex;
+
+}
+
+/* W3.CSS 4.13 June 2019 by Jan Egil and Borge Refsnes */
+:global(html){box-sizing:border-box}
+:global(*),:global(*):before,:global(*):after{box-sizing:inherit}
+/* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
+:global(html){-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}:global(body){margin:0}
+/* End extract */
+
+@import "theme";
+
+
+
+:global(body)
+{
+    background-color: theme-color('background');
+    color: theme-color('background','contrast');
+
+}
