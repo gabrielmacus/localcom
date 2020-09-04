@@ -16,7 +16,7 @@
     "@pwa/cli": "latest",
     "@pwa/plugin-offline": "latest",
     "@pwa/preset-svelte": "latest",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.13.1",
     "sass-loader": "^7.1.0",
     "svelte": "^3.1.0"
   },
