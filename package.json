@@ -18,7 +18,7 @@
     "@pwa/preset-svelte": "latest",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.1.0",
-    "svelte": "^3.1.0"
+    "svelte": "^3.49.0"
   },
   "browserslist": [
     ">0.25%",
